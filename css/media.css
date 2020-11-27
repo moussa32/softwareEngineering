@@ -1,0 +1,27 @@
+@media screen and (max-width:700px) {
+    .my-name {
+        font-size: 2.5em;
+    }
+
+    section {
+        grid-template-columns: 1fr;
+    }
+
+    .section-title {
+        font-size: 1.8em;
+    }
+
+    .job-title-container {
+        flex-direction: column;
+    }
+
+    .job-title-container > div:nth-child(2) {
+        margin-top: 1em;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:565px) {
+    .links {
+        flex-flow: column;
+    }
+}
